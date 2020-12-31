@@ -5,9 +5,7 @@
  */
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace AlgorithmesDeTri
 {
@@ -238,9 +236,9 @@ namespace AlgorithmesDeTri
             Console.WriteLine(MakeHeader("Tri à bulles"));
             Console.WriteLine();
             Console.Write("Liste initiale : ");
-            foreach (var number in liste)
+            foreach (var entier in liste)
             {
-                Console.Write(number + " ");
+                Console.Write(entier + " ");
             }
             Console.WriteLine();
             Console.WriteLine();
@@ -265,9 +263,9 @@ namespace AlgorithmesDeTri
                 if (modification)
                 {
                     Console.Write("Etape n°{0}      : ", etape);
-                    foreach (var number in liste)
+                    foreach (var entier in liste)
                     {
-                        Console.Write(number + " ");
+                        Console.Write(entier + " ");
                     }
                     Console.WriteLine();
                     etape++;
@@ -276,9 +274,9 @@ namespace AlgorithmesDeTri
             // Affichage final
             Console.WriteLine();
             Console.Write("Liste triée    : ");
-            foreach (var number in liste)
+            foreach (var entier in liste)
             {
-                Console.Write(number + " ");
+                Console.Write(entier + " ");
             }
             Console.WriteLine();
         }
